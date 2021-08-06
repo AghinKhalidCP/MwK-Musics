@@ -29,7 +29,7 @@ U=USERNAME
 CHAT=Config.CHAT
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project by MwK MusicS\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam Jarvis Music X\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
 
@@ -58,8 +58,8 @@ HELP = """
 • `/um`  __Unmute in VC__
 • `/update` __Update Current Settings n Restarts the Bot__
 
-© Powered By 
-[ __@mwklinks | @redbullfed__ ]
+© Powered By [ @adbzmelikshahbot | @ADBZ_Asistant ]
+
 """
 
 
@@ -70,13 +70,13 @@ async def start(client, message):
         [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/ADBZ_linkz'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/adbzmelikshahbot')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/ADBZ_Admin_bot'),
+                InlineKeyboardButton('🤖 мя ʝαяνυιѕ', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 Source Code 📜', url='Musics'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -94,7 +94,7 @@ async def show_help(client, message):
                 InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
                 InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/AghinKhalidCP/MwK-Musics'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
