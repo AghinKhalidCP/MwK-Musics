@@ -58,7 +58,7 @@ HELP = """
 • `/um`  __Unmute in VC__
 • `/update` __Update Current Settings n Restarts the Bot__
 
-© Powered By [ @adbzmelikshahbot | @ADBZ_Asistant ]
+© [ @adbzmelikshahbot | @ADBZ_Asistant ]
 
 """
 
@@ -74,13 +74,13 @@ async def start(client, message):
                 InlineKeyboardButton('💬 Support', url='https://t.me/adbzmelikshahbot')
                 ],[
                 InlineKeyboardButton('🤖 Developer', url='https://t.me/ADBZ_Admin_bot'),
-                InlineKeyboardButton('🤖 мя ʝαяνυιѕ', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('🤖 мя ʝαяνυιѕ', url='https://t.me/ADBZ_Managerbot')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='Musics'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/AghinKhalidCP/MwK-Musics'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/4bfcbfbeb135be60f37bf.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await message.delete()
 
 
@@ -88,15 +88,15 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/ADBZ_linkz'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/adbzmelikshahbot')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/ADBZ_Admin_bot'),
+                InlineKeyboardButton('🤖 мя ʝαяνυιѕ', url='https://t.me/ADBZ_Managerbot')
                 ],[
                 InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/AghinKhalidCP/MwK-Musics'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/4bfcbfbeb135be60f37bf.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
