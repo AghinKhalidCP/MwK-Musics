@@ -28,10 +28,10 @@ buttons = [
     [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/ADBZ_linkz'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/adbzmelikshahbot')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),       
+                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/AghinKhalidCP/MwK-Musics'),       
     ]
     ]
 
@@ -42,9 +42,9 @@ async def search(client, query):
         answers.append(
             InlineQueryResultPhoto(
                     title="do you wanna help huh?",
-                    thumb_url="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-                    photo_url="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@MwKLinks | @RedbullFED__ ]"),
+                    thumb_url="https://telegra.ph/file/4bfcbfbeb135be60f37bf.jpg",
+                    photo_url="https://telegra.ph/file/4bfcbfbeb135be60f37bf.jpg",
+                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@adbzmelikshahbot | @ADBZ_Asistant__ ]"),
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
             )
